@@ -1,0 +1,39 @@
+=> connect to git
+==================================
+cd my_project
+touch .gitignore
+git init
+git add .
+git commit -m "Initial commit"
+git remote add origin mailto:youruser@yourserver.com:/path/to/my_project.git
+git push origin master
+
+
+>code . (open for the cs code)
+
+=> insatalling angular CLI
+=================================
+
+npm i @angular/cli -g
+
+ng version/ng --version
+
+    OR
+
+Use npx to avoid having global version
+
+
+Creating Angular worksapce 
+===============================
+ng new hotelinventoryapp --createApplication = false (old way)
+
+or
+
+ng new hotelinventoryapp
+
+===================================================================
+
+git config --global user.name "Your Name"
+git config --global user.email "youremail@example.com"
+
+
